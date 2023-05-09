@@ -1,0 +1,164 @@
+/*! Fonts 
+
+Ethnocentric
+font-family: 'ethnocentric', sans-serif;
+UltraLight 100 normal 
+ExtraLight 200 normal
+Light 300 normal
+Regular 400 normal
+Bold 700 normal
+
+BDR Mono
+font-family: 'bdr-mono', sans-serif;
+Light 300 normal
+Regular 400 normal
+Bold 700 normal
+
+Inter
+font-family: 'Inter', sans-serif;
+Black 900 
+Bold 700
+Medium 500
+Regular 400
+ExtraLight 200
+Thin 100
+
+/*! End Fonts */
+
+
+
+
+/*! Font styles */
+
+    /*! h1 Headline */
+    h1 {
+        font-family: 'ethnocentric', sans-serif;
+        font-size: 84px;
+        font-weight: 700;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) 
+            h1 {
+            font-family: 'ethnocentric', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+        } 
+    
+        /*! h2 Headline */
+    h2 {
+        font-family: 'ethnocentric', sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+        margin-top: 20px;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h2 {
+            font-family: 'ethnocentric', sans-serif;
+            font-size: 32px;}
+            font-weight: 700;
+        } 
+    
+        /*! h3 Headline */
+    h3 {
+        font-family: 'bdr-mono', sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h3 {
+                font-family: 'bdr-mono', sans-serif;
+                font-size: 32px;}
+                font-weight: 700;
+        } 
+    
+        /*! h4 Headline */
+    h4 {
+        font-family: 'bdr-mono', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h4 {
+                font-family: 'bdr-mono', sans-serif;
+                font-size: 20px;}
+                font-weight: 700;
+        } 
+    
+        /*! h5 Subhead */
+    h5 {
+        font-family: 'Inter', sans-serif;
+        font-size: 26px;
+        line-height: 46px;
+        font-weight: 400;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h5 {
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                line-height: 44px;}
+                font-weight: 400;
+        } 
+    
+        /*! h6 Subhead */
+    h6 {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h6 {
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;}
+                font-weight: 700;
+        } 
+    
+        /*! p Paragraph */
+    p {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        }
+            /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            h6 {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;}
+                font-weight: 400;
+        } 
+    
+    h7 {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            }
+            h7:hover { 
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+              }
+    h8 {
+            font-family: 'ethnocentric', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                }
+                h8:hover { 
+                    font-weight: 700;
+                    animation: glow 2s;
+                  }
+    h9 {
+                    font-family: 'ethnocentric', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                    }
+                        /* Medium devices (landscape tablets, 768px and up) */
+                    @media only screen and (max-width: 768px) {
+                        h9 {
+                        font-family: 'ethnocentric', sans-serif;
+                        font-size: 20px;
+                        font-weight: 700;
+                    } 

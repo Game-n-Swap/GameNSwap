@@ -1,0 +1,244 @@
+
+
+/*! Page styling */
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+}
+.navbar-brand {
+    margin-left: 30px;
+}
+.bg-Black {
+    background-color: rgb(0, 0, 0);
+
+}
+.nav-dark {
+    color: white;
+}
+
+.buttonSearch {
+            background-color: transparent;
+            color: black;
+            background-color: rgb(13, 255, 0);
+            border: 2px solid rgb(13, 255, 0);
+            height: 40px;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+
+.searchWindow {
+            background-color: transparent;
+            height: 40px;
+            color: rgb(13, 255, 0);
+            padding-left: 15px;
+            border: 2px solid rgb(13, 255, 0);
+          }
+
+    /*! labels basics Page Architecture */
+    label {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    input,label {
+        margin: 0.4rem 0;
+    }
+
+    label2 {
+    display: block;
+    font-family: 'ethnocentric', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    float: right;
+    text-align: right;
+    justify-content: end;
+    }
+    
+    input,header {
+        margin: 0.4rem 0;
+    }
+body {
+    background-color:rgb(0, 0, 0)
+}
+    
+/*! Content styles */
+.header {
+    display: flex;
+    background-color: blue;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .flex-container > div {
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+  }
+  .flex-container {
+    display: flex;
+  }
+
+.profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    visibility: visible;
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+}
+
+form input[type="file"] {
+          display: none;
+          cursor: pointer;
+ }
+.nav-link2 {
+    color: white;
+}
+.userName {
+    align-items: center;
+}
+.glow {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(196, 250, 0), 0 0 40px rgb(196, 250, 0), 0 0 50px rgb(196, 250, 0), 0 0 60px rgb(196, 250, 0), 0 0 70px rgb(196, 250, 0);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(196, 250, 0), 0 0 40px rgb(196, 250, 0), 0 0 50px rgb(196, 250, 0), 0 0 60px rgb(196, 250, 0), 0 0 70px rgb(196, 250, 0), 0 0 80px rgb(196, 250, 0);
+    }
+  }
+
+.carouselBox {
+    min height: 1200px;
+}
+
+
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+    color: white;
+  }
+  .right {
+    background-color: transparent;
+    float: right;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    color: white;
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+    .body:before {
+        visibility: hidden;
+      }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .main, .main, .right {
+      width: 100%;
+      .body:before {
+        visibility: hidden;
+      }
+    }
+  }
+  div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    margin-bottom: 20px;
+    height: 30vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:left;
+}
+.mainContent {
+    margin-top: 20px;
+    color: white;
+}
+space {
+    margin: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ h7 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color:  rgb(13, 255, 0);
+    font-weight: 400;
+    }
+    h7:hover { 
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+      }
+h8 {
+    font-family: 'ethnocentric', sans-serif;
+        font-size: 24px;
+        color:  rgb(13, 255, 0);
+        font-weight: 700;
+        }
+        h8:hover { 
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            animation: glow 2s;
+          }
+h9 {
+            font-family: 'ethnocentric', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 20px;
+            }
+                /* Medium devices (landscape tablets, 768px and up) */
+            @media only screen and (max-width: 768px) {
+                h9 {
+                font-family: 'ethnocentric', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+            } 

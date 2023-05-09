@@ -1,0 +1,114 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #000000;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(0, 0, 0), rgb(0, 23, 64));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 23, 64))
+    }
+    
+    .bg-indigo {
+    background-color: #005AFF;
+    }
+    .bg-left {
+    background-color: #ffffff;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+    }
+
+.logoPad {
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+#form3Examplev3 {
+    border-radius: 54px;
+}
+#form3Examplev2 {
+    border-radius: 54px;
+}
+#form3Examplea2 {
+    border-radius: 54px;
+}
+#form3Examplea3 {
+    border-radius: 54px;
+}
+#form3Examplea4 {
+    border-radius: 54px;
+}
+#form3Examplea5 {
+    border-radius: 54px;
+}
+#form3Examplea6 {
+    border-radius: 54px;
+}
+#form3Examplea7 {
+    border-radius: 54px;
+}
+#form3Examplea8 {
+    border-radius: 54px;
+}
+#form3Examplea9 {
+    border-radius: 54px;
+}
+button {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'ethnocentric', sans-serif;
+    border: 2px solid #ffffff;
+    width: 216px;
+    padding: 10px 27px;
+    outline: none;
+    color: #ffffff;
+    border-radius: 54px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+button:hover{
+    background: #ffffff;
+    width: 416px;
+    border: 2px solid #005AFF;
+    color: #005AFF;
+    box-shadow: 0 0 20px #005AFF, 0 0 30px #3588FF, 0 0 26px #3588FF, 0 0 35px #3588FF, 0 0 45px #3588FF, 0 0 55px #3588FF, 0 0 70px #3588FF;
+    ;
+}
+.form-label {
+    font-family: 'Inter', sans-serif;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+h2 {
+    margin-left: 23px;
+}
+select {
+    margin-left: 23px;
+}
